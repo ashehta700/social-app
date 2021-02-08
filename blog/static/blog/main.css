@@ -1,0 +1,159 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+    font-family: 'Potta One', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.regist {
+    position: relative;
+    left: 931px;
+}
+
+.bg-steel {
+    background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 65px #cec7c7;
+    margin-top: 14px;
+}
+
+.article-title {
+    color: #444444;
+}
+
+a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+    padding: 19px 3px;
+}
+
+.article-img {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+}
+
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* styling in input field */
+.clearablefileinput {
+    margin-top: 12px !important;
+}
+
+.clearablefileinput::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.clearablefileinput::before {
+    content: 'Upload Your Photo';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 900;
+    font-size: 15pt;
+}
+
+.clearablefileinput:hover::before {
+    border-color: black;
+}
+
+.clearablefileinput:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+
+
+.img-header{
+    width: 100%;
+    background-color: #e0dddd;
+    border: 1px solid #e0dddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.img-header img{
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    border: 1px solid #e0dddd;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.heading{
+    border-top: 3px solid #e7e4e4;
+}
